@@ -16,17 +16,6 @@
         height: 40px;
     }
     
- 
-    .nav2{
-        margin-top: 80%;
-        background: rgb(148, 148, 30);
-        padding: 10px;
-        display: flex;
-        /* justify-content: space-around; */
-        width: 100%;
-        height: 40px;
-    }
-    
     .divgeneral{
         display:flex;
         justify-content: center;/* Para separar los elementos con espacio entre ellos */
@@ -34,7 +23,7 @@
         align-items: center;
         background: blue;
         width: 100%;
-        height: 100%;
+        height: 30%;
         margin-top: 0%;
         margin-left: 0%;
         border: 2px solid;
@@ -139,8 +128,8 @@
     }
 }
 
-@media screen and (max-width: 360px){
-    nav{
+@media screen and (max-width: 500px){
+    .nav{
         background-color: navy;
         padding: 10px;
         display: flex;
@@ -149,6 +138,7 @@
         height: 40px;
     }
     .divgeneral{
+        background-color: rgba(240, 240, 240, 0.39);
         display:flex;
         justify-content: center;/* Para separar los elementos con espacio entre ellos */
         flex-wrap: wrap; /* Para que los elementos se ajusten automáticamente al tamaño del contenedor */
@@ -165,7 +155,7 @@
     }  
     .div1{
         /*background-color: rgba(255, 166, 0, 0.15);*/
-        background-color: transparent;
+        background-color: rgb(255, 255, 255);
         /*width: calc(20% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
         width: 85%;
         /*margin-bottom: 20px;*/
@@ -174,7 +164,7 @@
         margin-bottom: 3.75%;
         margin-left: auto;
         margin-right: auto;
-        border: 1px solid rgba(102, 101, 99, 0.6);
+        border: 1px solid rgba(102, 101, 99, 0.3);
         border-radius: 10px;
         float: left; 
         text-align: center;

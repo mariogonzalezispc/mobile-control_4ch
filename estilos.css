@@ -128,7 +128,7 @@
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     .nav{
         background-color: navy;
         padding: 10px;

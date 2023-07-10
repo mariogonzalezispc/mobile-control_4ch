@@ -1,0 +1,247 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 1080px){
+
+
+    nav{
+        background: rgb(148, 148, 30);
+        padding: 10px;
+        display: flex;
+        /* justify-content: space-around; */
+        width: 100%;
+        height: 40px;
+    }
+    .divgeneral{
+        display:flex;
+        justify-content: center;/* Para separar los elementos con espacio entre ellos */
+        flex-wrap:wrap; /* Para que los elementos se ajusten automáticamente al tamaño del contenedor */
+        align-items: center;
+        background: blue;
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left;  
+        align-items: center;
+    }  
+    .div1{
+        background: orange;
+        width: calc(33.33% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left;
+    }   
+    .div2{
+        background: aqua;
+        width: calc(33.33% - 10px); /* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left; 
+    }
+    .div3{
+        background: chartreuse;
+        width: calc(33.33% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left; 
+    }
+    .div4{
+        background: darkcyan;
+        width: calc(33.33% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left;
+    } 
+    .div5{
+        background: firebrick;
+        width: calc(33.33% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left;
+    }
+    .div6{
+        background: green;
+        width: calc(33.33% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left;
+    }
+
+    .divgeneral{
+        background: violet;
+    }
+    .div1{
+        width: 25%;/* Para que los elementos se ajusten a dos columnas en pantallas más pequeñas */
+    }
+    .div2{
+        width: 25%;
+    }
+    .div3{
+        width: 25%;
+    }
+    .div4{
+        width: 25%;
+    }
+    .div5{
+        width: 25%;
+    }
+    .div6{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 340px){
+    nav{
+        background: rgb(148, 148, 30);
+        padding: 10px;
+        display: flex;
+        /* justify-content: space-around; */
+        width: 100%;
+        height: 40px;
+    }
+    .divgeneral{
+        display:flex;
+        justify-content: center;/* Para separar los elementos con espacio entre ellos */
+        flex-wrap: wrap; /* Para que los elementos se ajusten automáticamente al tamaño del contenedor */
+        align-items: center;
+        /*background: blue;*/
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+        margin-left: 0%;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left;  
+        align-content: space-between;
+    }  
+    .div1{
+        background: orange;
+        width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left; 
+        text-align: center;
+    }   
+    .div2{
+        background: aqua;
+        width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left; 
+    }
+    .div3{
+        background: chartreuse;
+        width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left; 
+    }
+    .div4{
+        background: darkcyan;
+        width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left;
+    } 
+    .div5{
+        background: firebrick;
+        width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left;
+    }
+    .div6{
+        background: green;
+        width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
+        height: 200px;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-radius: 10px;
+        float: left;
+    }
+    .divgeneral{
+        background: orange;
+    }
+    .div1{
+        width: 100%;/* Para que los elementos se ajusten a una sola columna en pantallas aún más pequeñas */
+    }
+    .div2{
+        width: 100%;
+    }
+    .div3{
+        width: 100%;
+    }
+    .div4{
+        width: 100%;
+    }
+    .div5{
+        width: 100%;
+    }
+    .div6{
+        width: 100%;
+    }
+}

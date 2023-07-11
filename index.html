@@ -33,7 +33,7 @@
     <div class="divgeneral">
 
         <div class="div1">
-           <div id="gauge" class="Gauge1"></div>
+           <div id="gauge" class="G1" ></div>
         </div>
 
         <div class="div2">
@@ -62,13 +62,21 @@
 
 <script>
     var g = new JustGage({
-      id: "gauge",    // Identificador del elemento contenedor
-      value: 955,      // Valor inicial del medidor
-      min: 900,         // Valor mínimo del medidor
-      max: 1000,       // Valor máximo del medidor
-      title: "Gauge", // Título del medidor
-      label: "Presion hPa",      // Etiqueta del medidor (opcional)
+        id: "gauge", // Identificador del elemento contenedor
+        value: 955, // Valor inicial del medidor
+        min: 900, // Valor mínimo del medidor
+        max: 1000, // Valor máximo del medidor
+        title: "Gauge", // Título del medidor
+        label: "Presion hPa", // Etiqueta del medidor (opcional)
+        relativeGaugeSize: true,
+        gaugeWidthScale: 0.9,//Ancho de la aguja
+        shadowOpacity: 1,
+        shadowSize: 5,
+        shadowVerticalOffset: 10
+
+
+
     });
-  </script>
+</script>
   
 </html>

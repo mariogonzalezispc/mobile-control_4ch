@@ -39,9 +39,8 @@
     }  
     .div1{
         background-color: rgb(255, 255, 255);
-        /*width: calc(20% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
-        width: 85%;
-        height: 200px;
+        width: 40%;
+        height: 20vh;
         margin-top: 7.5%;
         margin-bottom: 3.75%;
         margin-left: auto;
@@ -51,12 +50,23 @@
         float: left; 
         text-align: center;
     }   
+
+    .div1 .G1{
+        width: 95%;
+        height: 90%;
+        margin-top: 3%;
+        margin-left: 2%;
+        border: 2px solid;
+        border-radius: 10px;
+    }
+    
+
+
     .div2{
         /*background: aqua;*/
         background-color: rgb(255, 255, 255);
-       /* width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
-        width: 85%;
-        height: 200px;
+        width: 40%;
+        height: 20vh;
         margin-top: 3.75%;
         margin-bottom: 3.75%;
         margin-left: auto;
@@ -67,7 +77,6 @@
     }
     .div3{
         background-color: rgb(255, 255, 255);
-        /*width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
         width: 85%;
         height: 200px;
         margin-top: 3.75%;
@@ -80,7 +89,6 @@
     }
     .div4{
         background-color: rgb(255, 255, 255);
-        /*width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
         width: 85%;
         height: 200px;
         margin-top: 3.75%;
@@ -93,7 +101,6 @@
     } 
     .div5{
         background-color: rgb(255, 255, 255);
-        /*width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
         width: 85%;
         height: 200px;
         margin-top: 3.75%;
@@ -106,7 +113,6 @@
     }
     .div6{
         background-color: rgb(255, 255, 255);
-        /*width: calc(25% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
         width: 85%;
         height: 200px;
         margin-top: 3.75%;

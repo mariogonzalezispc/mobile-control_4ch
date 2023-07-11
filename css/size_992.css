@@ -1,5 +1,7 @@
 @media screen and (min-width: 992px){
-
+    .div_general{
+        width: 100%;
+    }
     .nav{
         background: rgb(148, 148, 30);
         padding: 10px;
@@ -12,7 +14,7 @@
         display: none;
     }
     
-    .divgeneral{
+    .div_0{
         display:flex;
         justify-content: center;/* Para separar los elementos con espacio entre ellos */
         flex-wrap:wrap; /* Para que los elementos se ajusten automáticamente al tamaño del contenedor */
@@ -26,8 +28,7 @@
         border-radius: 10px;
         float: left;  
         align-items: center;
-    }  
-    
+    } 
     .div1{
         background: orange;
         width: calc(33.33% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
@@ -40,6 +41,12 @@
         border-radius: 10px;
         float: left;
     } 
+    .div1 .G1{
+        display: none;
+    }
+
+
+
 
     .div2{
         background: aqua;

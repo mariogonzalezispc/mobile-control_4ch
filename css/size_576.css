@@ -51,10 +51,12 @@
     }   
 
     .div1 .G1{
+        display: flex;
         width: 95%;
         height: 90%;
         margin-top: 3.5%;
         margin-left: 2.5%;
+        display: flex;
         /* border: 2px solid; */
         /* border-radius: 10px; */
     }

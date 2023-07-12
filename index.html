@@ -116,32 +116,42 @@
      
 
 
-            <div class="id_equipo">
-
-                <form action="" class="was-validated">
+            <div class="carga_equipo">
+                <form>
+                    <!-- --------------------------------------------------------------------------------- -->
                     <div class="form-group">
-                      <label for="uname">Username:</label>
-                      <input type="text" class="form-control-sm" id="uname" placeholder="Enter username" name="uname" required>
-                      <div class="valid-feedback">Valid.</div>
-                      <div class="invalid-feedback">Please fill out this field.</div>
+                        <label for="email">ID-Equipo:</label>
+                        <input type="text" class="form-control-sm" placeholder="400/a1b2c3d4e5f6" id="email">
                     </div>
+                    <!-- ---------------------------------------------------------------------------------- -->
                     <div class="form-group">
-                      <label for="pwd">Password:</label>
-                      <input type="password" class="form-control-sm" id="pwd" placeholder="Enter password" name="pswd" required>
-                      <div class="valid-feedback">Valid.</div>
-                      <div class="invalid-feedback">Please fill out this field.</div>
+                        <label for="pwd">Nombre:</label>
+                        <input type="text" class="form-control-sm entrada" placeholder="Casa" id="pwd">
                     </div>
-                    <div class="form-group form-check">
-                      <label class="form-check-label">
-                        <input class="form-check-input" type="checkbox" name="remember" required> I agree on blabla.
-                        <div class="valid-feedback">Valid.</div>
-                        <div class="invalid-feedback">Check this checkbox to continue.</div>
-                      </label>
+                    <!-- ---------------------------------------------------------------------------------- -->
+                    <div class="form-group">
+                        <div>
+                            <label for="pwd">Nombre</label>
+                            <label class="form-check-label">Sostenido</label>
+                            <label class="form-check-label">Pulso</label>
+                            <label class="form-check-label">Segundos</label>
+                        </div>
+                        <div>
+                            <input type="text" class="form-control-sm entrada" placeholder="Canal1" id="canal1">
+                            <input id="check_sostenido1" class="form-check-input" type="checkbox" id="sostenido1" checked="checked">
+                            <input id="check_pulso1" class="form-check-input" type="checkbox" id="pulso1">
+                            <input type="number" class="form-control-sm entrada" placeholder="30" id="Segundos1">
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+                    <!-- ---------------------------------------------------------------------------------- -->
 
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </form>
             </div>
+
+
+
+
         </div>
 <!-- ************************** div formulario************************************************************************* -->
 

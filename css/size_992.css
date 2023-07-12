@@ -13,7 +13,9 @@
     .nav-toggle {
         display: none;
     }
-    
+    .div_general{
+        width: auto;
+    }
     .div_0{
         display:flex;
         justify-content: center;/* Para separar los elementos con espacio entre ellos */
@@ -108,7 +110,6 @@
         border-radius: 10px;
         float: left;
     }
-
     .divgeneral{
         background: violet;
     }

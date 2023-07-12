@@ -143,6 +143,49 @@
         border-radius: 10px;
         float: left;
     }
+    .id_nombre{
+        width: 90%;
+        height: 10vh;
+        margin-top: 10%;
+        margin-left: 5%;
+        background-color: brown;
+        float: left;
+    }
+    .id_nombre .equip{
+        width: 44%;
+        height: 20vh;
+        background-color: orange;
+        float: left;
+        margin-left: 4%;
+        margin-top: 1.5%;
+        
+
+    }
+    .id_nombre .equip .label1{
+        width: 30%;
+        background-color: darkgreen;
+        float: left;
+    }
+    .id_nombre .equip .input1{
+        width: 30%;
+        /* height: 100vh; */
+        background-color: blue;
+        float: left;
+    }
+
+
+
+    .id_nombre .nom{
+        width: 44%;
+        background-color: crimson;
+        float: left;
+        margin-left: 4%;
+        margin-top: 1.5%;
+    }
+
+
+
+
     .entrada{
         width: 5%;
     }

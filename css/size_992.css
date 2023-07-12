@@ -153,34 +153,101 @@
     }
     .id_nombre .equip{
         width: 44%;
-        height: 20vh;
+        height: 7.5vh;
         background-color: orange;
         float: left;
         margin-left: 4%;
         margin-top: 1.5%;
         
+        
 
     }
-    .id_nombre .equip .label1{
+     .id_nombre .equip .label1{
         width: 30%;
+        margin-top: 3%;
         background-color: darkgreen;
         float: left;
     }
     .id_nombre .equip .input1{
-        width: 30%;
-        /* height: 100vh; */
+        width: 55%;
+        margin-top: 3% ;
+        margin-left: 2%;
         background-color: blue;
         float: left;
-    }
+    } 
 
 
 
     .id_nombre .nom{
         width: 44%;
+        height: 7.5vh;
         background-color: crimson;
         float: left;
         margin-left: 4%;
         margin-top: 1.5%;
+        
+    }
+    .id_nombre .nom .label2{
+        width: 30%;
+        margin-top: 3%;
+        background-color: darkgreen;
+        float: left;
+    }
+    .id_nombre .nom .input2{
+        width: 65%;
+        margin-top: 3% ;
+        background-color: blue;
+        float: left;
+    } 
+    .titulo{
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+        margin-left: 5%;
+        background-color: yellow;
+        float: left;
+    }
+    .titulo .tit_nom{
+        width: 25%;
+        height: 6vh;
+        margin-top: 2%;
+        background-color: darkgreen;
+        float: left;
+    }
+    .titulo .tit_sost{
+        width: 25%;
+        height: 6vh;
+        margin-top: 2%;
+        background-color: red;
+        float: left;
+    }
+    .titulo .tit_pul{
+        width: 25%;
+        height: 6vh;
+        margin-top: 2%;
+        background-color: blue;
+        float: left;
+    }
+    .titulo .tit_seg{
+        width: 25%;
+        height: 6vh;
+        margin-top: 2%;
+        background-color: violet;
+        float: left;
+    }
+    .can1{
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+        margin-left: 5%;
+        background-color: gray;
+        float: left;
+    }
+    .can1 .cana1{
+        width: 25%;
+        margin-top: 3%;
+        background-color: darkgreen;
+        float: left;
     }
 
 

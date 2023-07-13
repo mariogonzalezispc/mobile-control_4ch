@@ -143,6 +143,164 @@
         border-radius: 10px;
         float: left;
     }
+    .id_nombre{
+        width: 90%;
+        height: 10vh;
+        margin-top: 10%;
+        margin-left: 5%;
+        background-color: brown;
+        float: left;
+    }
+    .id_nombre .equip{
+        width: 44%;
+        height: 7.5vh;
+        background-color: orange;
+        float: left;
+        margin-left: 4%;
+        margin-top: 1.5%;
+        
+        
+
+    }
+     .id_nombre .equip .label1{
+        width: 30%;
+        margin-top: 3%;
+        background-color: darkgreen;
+        float: left;
+    }
+    .id_nombre .equip .input1{
+        width: 68%;
+        margin-top: 3% ;
+        margin-left: 2%;
+        background-color: blue;
+        float: left;
+    } 
+    .input_1{
+        width: 95%;
+
+    }
+
+
+    .id_nombre .nom{
+        width: 44%;
+        height: 7.5vh;
+        background-color: crimson;
+        float: left;
+        margin-left: 4%;
+        margin-top: 1.5%;
+        
+    }
+    .id_nombre .nom .label2{
+        width: 30%;
+        margin-top: 3%;
+        background-color: darkgreen;
+        float: left;
+    }
+    .id_nombre .nom .input2{
+        width: 67%;
+        margin-top: 3% ;
+        margin-left: 2%;
+        background-color: blue;
+        float: left;
+    }
+    .input_2{
+        width: 95%;
+
+    } 
+    .titulo{
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+        margin-left: 5%;
+        background-color: yellow;
+        float: left;
+    }
+    .titulo .tit_nom{
+        width: 23%;
+        height: 6vh;
+        margin-top: 2%;
+        margin-left: 2%;
+        background-color: darkgreen;
+        float: left;
+        text-align: center;
+    }
+    .titulo .tit_sost{
+        width: 23%;
+        height: 6vh;
+        margin-top: 2%;
+        margin-left: 2%;
+        background-color: red;
+        float: left;
+        text-align: center;
+    }
+    .titulo .tit_pul{
+        width: 23%;
+        height: 6vh;
+        margin-top: 2%;
+        margin-left: 2%;
+        background-color: blue;
+        float: left;
+        text-align: center;
+    }
+    .titulo .tit_seg{
+        width: 23%;
+        height: 6vh;
+        margin-top: 2%;
+        margin-left: 2%;
+        background-color: violet;
+        float: left;
+        text-align: center;
+    }
+    .can1{
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+        margin-left: 5%;
+        background-color: gray;
+        float: left;
+    }
+    .can1 .entrada{
+        width: 25%;
+        margin-top: 3%;
+        background-color:brown;
+        float: left;
+    }
+    .can1 .sost{
+        width: 25%;
+        margin-top: 3%;
+        background-color: darkgreen;
+        float: left;
+    }
+    .can1 .pul{
+        width: 25%;
+        margin-top: 3%;
+        background-color: cadetblue;
+        float: left;
+    }
+    .can2{
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+        margin-left: 5%;
+        background-color: green;
+        float: left;
+    }
+    .can3{
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+        margin-left: 5%;
+        background-color: violet;
+        float: left;
+    }
+    .can4{
+        width: 90%;
+        height: 10vh;
+        margin-top: 5%;
+        margin-left: 5%;
+        background-color: blue;
+        float: left;
+    }
     .entrada{
         width: 5%;
     }

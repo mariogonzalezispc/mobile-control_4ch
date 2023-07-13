@@ -146,7 +146,7 @@
     .id_nombre{
         width: 90%;
         height: 10vh;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 5%;
         background-color: brown;
         float: left;
@@ -210,7 +210,7 @@
     .titulo{
         width: 90%;
         height: 10vh;
-        margin-top: 5%;
+        margin-top: 1%;
         margin-left: 5%;
         background-color: yellow;
         float: left;
@@ -254,33 +254,48 @@
     .can1{
         width: 90%;
         height: 10vh;
-        margin-top: 5%;
+        margin-top: 1%;
         margin-left: 5%;
         background-color: gray;
         float: left;
+        
     }
     .can1 .entrada{
-        width: 25%;
-        margin-top: 3%;
+        width: 24%;
+        height: 6vh;
+        margin-top: 2%;
+        margin-left: 2%;
         background-color:brown;
         float: left;
     }
     .can1 .sost{
-        width: 25%;
-        margin-top: 3%;
+        width: 15%;
+        margin-top: 2%;
+        /* margin-left: 0.5%;  */
         background-color: darkgreen;
-        float: left;
+        /* float: left; */
+        align-items: center;
     }
     .can1 .pul{
-        width: 25%;
-        margin-top: 3%;
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 10%; 
         background-color: cadetblue;
         float: left;
+        align-items: center;
+    }
+    .can1 .seg{
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 55%;
+        background-color: cadetblue;
+        float: left;
+        text-align: center;
     }
     .can2{
         width: 90%;
         height: 10vh;
-        margin-top: 5%;
+        margin-top: 1%;
         margin-left: 5%;
         background-color: green;
         float: left;
@@ -288,7 +303,7 @@
     .can3{
         width: 90%;
         height: 10vh;
-        margin-top: 5%;
+        margin-top: 1%;
         margin-left: 5%;
         background-color: violet;
         float: left;
@@ -296,10 +311,20 @@
     .can4{
         width: 90%;
         height: 10vh;
-        margin-top: 5%;
+        margin-top: 1%;
         margin-left: 5%;
         background-color: blue;
         float: left;
+    }
+    .guardar{
+        height: 5vh ;
+        margin-top: 0.5%;
+        margin-left: 30%;
+    }
+    .cancelar{
+        height: 5vh;
+        margin-top: 0.5%;
+        margin-left: 30%;
     }
     .entrada{
         width: 5%;

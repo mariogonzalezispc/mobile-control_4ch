@@ -284,7 +284,7 @@
         float: left;
         align-items: center;
     }
-    .can1 .seg{
+    .can1 .entrada1{
         width: 15%;
         margin-top: 2%;
         margin-left: 55%;
@@ -292,6 +292,7 @@
         float: left;
         text-align: center;
     }
+    /* ************************************************************************************** */
     .can2{
         width: 90%;
         height: 10vh;
@@ -300,6 +301,39 @@
         background-color: green;
         float: left;
     }
+    .can2 .entrada{
+        width: 24%;
+        height: 6vh;
+        margin-top: 2%;
+        margin-left: 2%;
+        background-color:brown;
+        float: left;
+    }
+    .can2 .sost{
+        width: 15%;
+        margin-top: 2%;
+        /* margin-left: 0.5%;  */
+        background-color: darkgreen;
+        /* float: left; */
+        align-items: center;
+    }
+    .can2 .pul{
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 10%; 
+        background-color: cadetblue;
+        float: left;
+        align-items: center;
+    }
+    .can2 .entrada1{
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 55%;
+        background-color: cadetblue;
+        float: left;
+        text-align: center;
+    }
+    /* ************************************************************************************** */
     .can3{
         width: 90%;
         height: 10vh;
@@ -308,6 +342,39 @@
         background-color: violet;
         float: left;
     }
+    .can3 .entrada{
+        width: 24%;
+        height: 6vh;
+        margin-top: 2%;
+        margin-left: 2%;
+        background-color:brown;
+        float: left;
+    }
+    .can3 .sost{
+        width: 15%;
+        margin-top: 2%;
+        /* margin-left: 0.5%;  */
+        background-color: darkgreen;
+        /* float: left; */
+        align-items: center;
+    }
+    .can3 .pul{
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 10%; 
+        background-color: cadetblue;
+        float: left;
+        align-items: center;
+    }
+    .can3 .entrada1{
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 55%;
+        background-color: cadetblue;
+        float: left;
+        text-align: center;
+    }
+    /* ************************************************************************************** */
     .can4{
         width: 90%;
         height: 10vh;
@@ -316,6 +383,39 @@
         background-color: blue;
         float: left;
     }
+    .can4 .entrada{
+        width: 24%;
+        height: 6vh;
+        margin-top: 2%;
+        margin-left: 2%;
+        background-color:brown;
+        float: left;
+    }
+    .can4 .sost{
+        width: 15%;
+        margin-top: 2%;
+        /* margin-left: 0.5%;  */
+        background-color: darkgreen;
+        /* float: left; */
+        align-items: center;
+    }
+    .can4 .pul{
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 10%; 
+        background-color: cadetblue;
+        float: left;
+        align-items: center;
+    }
+    .can4 .entrada1{
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 55%;
+        background-color: cadetblue;
+        float: left;
+        text-align: center;
+    }
+    /* ************************************************************************************** */
     .guardar{
         height: 5vh ;
         margin-top: 0.5%;

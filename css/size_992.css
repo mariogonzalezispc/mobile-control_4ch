@@ -143,21 +143,27 @@
         border-radius: 10px;
         float: left;
     }
+    
     .id_nombre{
         width: 90%;
         height: 10vh;
-        margin-top: 5%;
+        margin-top: 7%;
         margin-left: 5%;
-        background-color: brown;
+        background-color: skyblue;
         float: left;
+        border-color: aqua;
+        border-style: solid;
+        border-width: 1px;
     }
     .id_nombre .equip{
         width: 44%;
         height: 7.5vh;
-        background-color: orange;
+        /* background-color: orange; */
         float: left;
         margin-left: 4%;
         margin-top: 1.5%;
+        font-style: normal;
+        font-size:medium;
         
         
 
@@ -165,54 +171,64 @@
      .id_nombre .equip .label1{
         width: 30%;
         margin-top: 3%;
-        background-color: darkgreen;
+        /* background-color: darkgreen; */
         float: left;
+        
     }
     .id_nombre .equip .input1{
-        width: 68%;
+        width: 67%;
         margin-top: 3% ;
         margin-left: 2%;
-        background-color: blue;
+        /* background-color: blue; */
         float: left;
+        border-color: blue;
+        border-style: solid;
+        border-radius: 5px;
     } 
-    .input_1{
+    /* .input_1{
         width: 95%;
 
-    }
+    } */
 
 
     .id_nombre .nom{
         width: 44%;
         height: 7.5vh;
-        background-color: crimson;
+        /* background-color: crimson; */
         float: left;
         margin-left: 4%;
         margin-top: 1.5%;
-        
+        font-style:normal;
+        font-size:medium;
+            
     }
     .id_nombre .nom .label2{
         width: 30%;
         margin-top: 3%;
-        background-color: darkgreen;
+        /* background-color: darkgreen; */
         float: left;
     }
     .id_nombre .nom .input2{
         width: 67%;
         margin-top: 3% ;
         margin-left: 2%;
-        background-color: blue;
+        /* background-color: blue; */
         float: left;
+        border-color: blue;
+        border-style: solid;
+        border-radius: 5px;
+        
     }
-    .input_2{
+    /* .input_2{
         width: 95%;
 
-    } 
+    }  */
     .titulo{
         width: 90%;
         height: 10vh;
-        margin-top: 1%;
+        margin-top: 0.5%;
         margin-left: 5%;
-        /* background-color: yellow; */
+        background-color: yellow;
         background: none;
         float: left;
     }
@@ -221,7 +237,7 @@
         height: 6vh;
         margin-top: 2%;
         margin-left: 2%;
-        /* background-color: darkgreen; */
+        background-color: darkgreen;
         background: none;
         float: left;
         text-align: center;
@@ -234,38 +250,47 @@
         height: 6vh;
         margin-top: 2%;
         margin-left: 2%;
-        /* background-color: red; */
+        background-color: red;
         background: none;
         float: left;
         text-align: center;
+        color: blue;
+        font-style: italic;
+        font-size:larger
     }
     .titulo .tit_pul{
         width: 23%;
         height: 6vh;
         margin-top: 2%;
         margin-left: 2%;
-        /* background-color: blue; */
+        background-color: blue;
         background: none;
         float: left;
         text-align: center;
+        color: blue;
+        font-style: italic;
+        font-size:larger
     }
     .titulo .tit_seg{
         width: 23%;
         height: 6vh;
         margin-top: 2%;
         margin-left: 2%;
-        /* background-color: violet; */
+        background-color: violet;
         background: none;
         float: left;
         text-align: center;
+        color: blue;
+        font-style: italic;
+        font-size:larger
     }
     /* ************************************************************************************** */
     .can1{
         width: 90%;
         height: 10vh;
-        margin-top: 1%;
+        margin-top: 0.5%;
         margin-left: 5%;
-        /* background-color: gray; */
+        background-color: gray;
         background: none;
         float: left;
         
@@ -275,16 +300,19 @@
         height: 6vh;
         margin-top: 2%;
         margin-left: 2%;
-        /* background-color:brown; */
+        background-color:brown;
         background: none;
         float: left;
         border-radius: 5px;
+        border-color: blue;
+        border-style: solid;
+        
     }
     .can1 .sost{
         width: 15%;
         margin-top: 2%;
         /* margin-left: 0.5%;  */
-        /* background-color: darkgreen; */
+        background-color: darkgreen;
         /* float: left; */
         align-items: center;
     }
@@ -292,7 +320,7 @@
         width: 15%;
         margin-top: 2%;
         margin-left: 10%; 
-        /* background-color: cadetblue; */
+        background-color: cadetblue;
         float: left;
         align-items: center;
     }
@@ -301,19 +329,21 @@
         height: 6vh;
         margin-top: 2%;
         margin-left: 55%;
-        /* background-color: cadetblue; */
+        background-color: cadetblue;
         background: none;
         float: left;
         text-align: center;
         border-radius: 5px;
+        border-color: blue;
+        border-style: solid;
     }
     /* ************************************************************************************** */
     .can2{
         width: 90%;
         height: 10vh;
-        margin-top: 1%;
+        margin-top: 0.5%;
         margin-left: 5%;
-        /* background-color: green; */
+        background-color: green;
         background: none;
         float: left;
     }
@@ -325,12 +355,14 @@
         /* background-color:brown; */
         float: left;
         border-radius: 5px;
+        border-color: blue;
+        border-style: solid;
     }
     .can2 .sost{
         width: 15%;
         margin-top: 2%;
         /* margin-left: 0.5%;  */
-        /* background-color: darkgreen; */
+        background-color: darkgreen;
         float: left;
         align-items: center;
     }
@@ -338,7 +370,7 @@
         width: 15%;
         margin-top: 2%;
         margin-left: 10%; 
-        /* background-color: cadetblue; */
+        background-color: cadetblue;
         float: left;
         align-items: center;
     }
@@ -351,14 +383,16 @@
         float: left;
         text-align: center;
         border-radius: 5px;
+        border-color: blue;
+        border-style: solid;
     }
     /* ************************************************************************************** */
     .can3{
         width: 90%;
         height: 10vh;
-        margin-top: 1%;
+        margin-top: 0.5%;
         margin-left: 5%;
-        background-color: violet;
+        /* background-color: violet; */
         float: left;
     }
     .can3 .entrada{
@@ -366,9 +400,11 @@
         height: 6vh;
         margin-top: 2%;
         margin-left: 2%;
-        background-color:brown;
+        /* background-color:brown; */
         float: left;
         border-radius: 5px;
+        border-color: blue;
+        border-style: solid;
     }
     .can3 .sost{
         width: 15%;
@@ -391,18 +427,20 @@
         height: 6vh;
         margin-top: 2%;
         margin-left: 55%;
-        background-color: cadetblue;
+        /* background-color: cadetblue; */
         float: left;
         text-align: center;
         border-radius: 5px;
+        border-color: blue;
+        border-style: solid;
     }
     /* ************************************************************************************** */
     .can4{
         width: 90%;
         height: 10vh;
-        margin-top: 1%;
+        margin-top: 0.5%;
         margin-left: 5%;
-        background-color: blue;
+        /* background-color: blue; */
         float: left;
     }
     .can4 .entrada{
@@ -410,9 +448,11 @@
         height: 6vh;
         margin-top: 2%;
         margin-left: 2%;
-        background-color:brown;
+        /* background-color:brown; */
         float: left;
         border-radius: 5px;
+        border-color: blue;
+        border-style: solid;
     }
     .can4 .sost{
         width: 15%;
@@ -435,10 +475,12 @@
         height: 6vh;
         margin-top: 2%;
         margin-left: 55%;
-        background-color: cadetblue;
+        /* background-color: cadetblue; */
         float: left;
         text-align: center;
         border-radius: 5px;
+        border-color: blue;
+        border-style: solid;
     }
     /* ************************************************************************************** */
     .guardar{

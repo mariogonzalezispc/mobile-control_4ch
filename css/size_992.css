@@ -181,8 +181,9 @@
         margin-left: 2%;
         /* background-color: blue; */
         float: left;
-        border-color: blue;
-        border-style: solid;
+        /* border-color: blue; */
+        /* border-style: solid; */
+        border: 1px solid blue;
         border-radius: 5px;
     } 
     /* .input_1{
@@ -229,7 +230,7 @@
         margin-top: 0.5%;
         margin-left: 5%;
         background-color: yellow;
-        background: none;
+        /* background: none; */
         float: left;
     }
     .titulo .tit_nom{
@@ -238,7 +239,7 @@
         margin-top: 2%;
         margin-left: 2%;
         background-color: darkgreen;
-        background: none;
+        /* background: none; */
         float: left;
         text-align: center;
         color: blue;
@@ -251,7 +252,7 @@
         margin-top: 2%;
         margin-left: 2%;
         background-color: red;
-        background: none;
+        /* background: none; */
         float: left;
         text-align: center;
         color: blue;
@@ -264,7 +265,7 @@
         margin-top: 2%;
         margin-left: 2%;
         background-color: blue;
-        background: none;
+        /* background: none; */
         float: left;
         text-align: center;
         color: blue;
@@ -277,7 +278,7 @@
         margin-top: 2%;
         margin-left: 2%;
         background-color: violet;
-        background: none;
+        /* background: none; */
         float: left;
         text-align: center;
         color: blue;
@@ -287,55 +288,94 @@
     /* ************************************************************************************** */
     .can1{
         width: 90%;
-        height: 10vh;
+        height: 8vh;
         margin-top: 0.5%;
         margin-left: 5%;
         background-color: gray;
-        background: none;
+        /* background: none; */
         float: left;
         
+    }
+
+    .can1 .dispositivo1_a{
+        width: 25%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 1%;
+        float: left;
     }
     .can1 .entrada{
-        width: 24%;
+        width: 96%;
         height: 6vh;
-        margin-top: 2%;
+        margin-top: 4%;
         margin-left: 2%;
         background-color:brown;
-        background: none;
+        /* background: none; */
         float: left;
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
         
     }
+
+    .can1 .dispositivo1_b{
+        width: 20%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 2.5%;
+        float: left;
+    }
     .can1 .sost{
-        width: 15%;
-        margin-top: 2%;
-        /* margin-left: 0.5%;  */
+        width: 5%;
+        margin-top: 1.5%;
+        margin-left: 2%;
         background-color: darkgreen;
         /* float: left; */
-        align-items: center;
+        /* align-items: center; */
     }
-    .can1 .pul{
-        width: 15%;
-        margin-top: 2%;
-        margin-left: 10%; 
-        background-color: cadetblue;
+
+
+    .can1 .dispositivo1_c{
+        width: 20%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 4.5%;
         float: left;
-        align-items: center;
+    }
+
+    .can1 .pul{
+        width: 5%;
+        margin-top: 1.5%;
+        margin-left: 2%;
+        background-color: darkgreen;
+    }
+
+
+    .can1 .dispositivo1_d{
+        width: 25%;
+        height: 8vh;
+        background-color:coral;
+        margin-top: 0%;
+        margin-right: 1%;
+        float: right;
     }
     .can1 .entrada1{
-        width: 15%;
+        width: 96%;
         height: 6vh;
-        margin-top: 2%;
-        margin-left: 55%;
-        background-color: cadetblue;
-        background: none;
+        margin-top: 4%;
+        margin-left: 2%;
+        background-color:brown;
+        /* background: none; */
         float: left;
-        text-align: center;
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
+
+        text-align: center;
+
     }
     /* ************************************************************************************** */
     .can2{

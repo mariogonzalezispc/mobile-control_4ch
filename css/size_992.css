@@ -135,7 +135,7 @@
        /* width: calc(33.33% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
         /*margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
         width: 50%;
-        height: 80vh;
+        height: 85vh;
         margin-top: 2%;
         margin-left: auto;
         margin-right: auto;
@@ -146,7 +146,7 @@
     
     .id_nombre{
         width: 90%;
-        height: 10vh;
+        height: 17vh;
         margin-top: 7%;
         margin-left: 5%;
         background-color: skyblue;
@@ -156,34 +156,38 @@
         border-width: 1px;
     }
     .id_nombre .equip{
-        width: 44%;
-        height: 7.5vh;
-        /* background-color: orange; */
+        width: 45%;
+        height: 15vh;
+        background-color: orange;
         float: left;
         margin-left: 4%;
         margin-top: 1.5%;
-        font-style: normal;
-        font-size:small;
-        
+        font-style: italic;
+        font-size:20px;
+        line-height: 6vh;
+        text-align: center;
         
 
     }
-     .id_nombre .equip .label1{
-        width: 30%;
-        margin-top: 3%;
-        /* background-color: darkgreen; */
+      .id_nombre .equip .label1{
+        width: 98%;
+        margin-top: 1%;
+        margin-left: 1%;
+        background-color: darkgreen;
         float: left;
+        font-style: italic;
+        font-size:20px;
+        line-height: 6vh;
         
-    }
+    } 
     .id_nombre .equip .input1{
-        width: 67%;
+        width: 98%;
         margin-top: 1% ;
-        margin-left: 2%;
-        /* background-color: blue; */
+        margin-left: 1%;
+        background-color: blue;
         float: left;
-        /* border-color: blue; */
-        /* border-style: solid; */
-        border: 1px solid blue;
+        border-color: blue;
+        border-style: solid;
         border-radius: 5px;
     } 
     /* .input_1{
@@ -193,27 +197,32 @@
 
 
     .id_nombre .nom{
-        width: 44%;
-        height: 7.5vh;
-        /* background-color: crimson; */
+        width: 45%;
+        height: 15vh;
+        background-color: crimson;
         float: left;
         margin-left: 4%;
         margin-top: 1.5%;
-        font-style:normal;
-        font-size:small;
-            
+        font-style: italic;
+        font-size:20px;
+        line-height: 6vh;
+        text-align: center;   
     }
-    .id_nombre .nom .label2{
-        width: 30%;
-        margin-top: 3%;
-        /* background-color: darkgreen; */
-        float: left;
-    }
+     .id_nombre .nom .label2{
+        width: 98%;
+        margin-top: 1%;
+        margin-left: 1%;
+        background-color: darkgreen;
+        float: left;        
+        font-style: italic;
+        font-size:20px;
+        line-height: 6vh;
+    } 
     .id_nombre .nom .input2{
-        width: 67%;
+        width: 98%;
         margin-top: 1% ;
-        margin-left: 2%;
-        /* background-color: blue; */
+        margin-left: 1%;
+        background-color: blue;
         float: left;
         border-color: blue;
         border-style: solid;
@@ -244,7 +253,8 @@
         text-align: center;
         color: blue;
         font-style: italic;
-        font-size:medium;
+        font-size: 20px;
+        line-height: 6vh;
     }
     .titulo .tit_sost{
         width: 23%;
@@ -257,20 +267,22 @@
         text-align: center;
         color: blue;
         font-style: italic;
-        font-size:medium
+        font-size:20px;
+        line-height: 6vh;
     }
     .titulo .tit_pul{
         width: 23%;
         height: 6vh;
         margin-top: 2%;
         margin-left: 2%;
-        background-color: blue;
+        background-color: yellowgreen;
         /* background: none; */
         float: left;
         text-align: center;
         color: blue;
         font-style: italic;
-        font-size:medium
+        font-size:20px;
+        line-height: 6vh;
     }
     .titulo .tit_seg{
         width: 23%;
@@ -283,7 +295,8 @@
         text-align: center;
         color: blue;
         font-style: italic;
-        font-size:medium
+        font-size:20px;
+        line-height: 6vh;
     }
     /* ************************************************************************************** */
     .can1{
@@ -380,46 +393,76 @@
     /* ************************************************************************************** */
     .can2{
         width: 90%;
-        height: 10vh;
+        height: 8vh;
         margin-top: 0.5%;
         margin-left: 5%;
         background-color: green;
-        background: none;
+        float: left;
+    }
+    .can2 .dispositivo2_a{
+        width: 25%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 1%;
         float: left;
     }
     .can2 .entrada{
-        width: 24%;
+        width: 96%;
         height: 6vh;
-        margin-top: 2%;
+        margin-top: 4%;
         margin-left: 2%;
-        /* background-color:brown; */
+        background-color:brown;
         float: left;
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
     }
-    .can2 .sost{
-        width: 15%;
-        margin-top: 2%;
-        /* margin-left: 0.5%;  */
-        background-color: darkgreen;
+    .can2 .dispositivo2_b{
+        width: 20%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 2.5%;
         float: left;
-        align-items: center;
+    }
+
+    .can2 .sost{
+        width: 5%;
+        margin-top: 1.5%;
+        margin-left: 2%; 
+        background-color: darkgreen;
+        /* float: left;
+        align-items: center; */
+    }
+    .can2 .dispositivo2_c{
+        width: 20%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 4.5%;
+        float: left;
     }
     .can2 .pul{
-        width: 15%;
-        margin-top: 2%;
-        margin-left: 10%; 
+        width: 5%;
+        margin-top: 1.5%;
+        margin-left: 2%; 
         background-color: cadetblue;
-        float: left;
-        align-items: center;
+    }
+    .can2 .dispositivo2_d{
+        width: 25%;
+        height: 8vh;
+        background-color:coral;
+        margin-top: 0%;
+        margin-right: 1%;
+        float: right;
     }
     .can2 .entrada1{
-        width: 15%;
+        width: 96%;
         height: 6vh;
-        margin-top: 2%;
-        margin-left: 55%;
-        /* background-color: cadetblue; */
+        margin-top: 4%;
+        margin-left: 2%;
+        background-color: cadetblue;
         float: left;
         text-align: center;
         border-radius: 5px;
@@ -429,45 +472,76 @@
     /* ************************************************************************************** */
     .can3{
         width: 90%;
-        height: 10vh;
+        height: 8vh;
         margin-top: 0.5%;
         margin-left: 5%;
-        /* background-color: violet; */
+        background-color: violet;
+        float: left;
+    }
+    .can3 .dispositivo3_a{
+        width: 25%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 1%;
         float: left;
     }
     .can3 .entrada{
-        width: 24%;
+        width: 96%;
         height: 6vh;
-        margin-top: 2%;
+        margin-top: 4%;
         margin-left: 2%;
-        /* background-color:brown; */
+        background-color:brown;
         float: left;
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
     }
+    .can3 .dispositivo3_b{
+        width: 20%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 2.5%;
+        float: left;
+    }
     .can3 .sost{
-        width: 15%;
-        margin-top: 2%;
-        /* margin-left: 0.5%;  */
+        width: 5%;
+        margin-top: 1.5%;
+        margin-left: 2%; 
         background-color: darkgreen;
         /* float: left; */
-        align-items: center;
+        /* align-items: center; */
+    }
+    .can3 .dispositivo3_c{
+        width: 20%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 4.5%;
+        float: left;
     }
     .can3 .pul{
-        width: 15%;
-        margin-top: 2%;
-        margin-left: 10%; 
+        width: 5%;
+        margin-top: 1.5%;
+        margin-left: 2%; 
         background-color: cadetblue;
-        float: left;
-        align-items: center;
+        
+    }
+    .can3 .dispositivo3_d{
+        width: 25%;
+        height: 8vh;
+        background-color:coral;
+        margin-top: 0%;
+        margin-right: 1%;
+        float: right;
     }
     .can3 .entrada1{
-        width: 15%;
+        width: 96%;
         height: 6vh;
-        margin-top: 2%;
-        margin-left: 55%;
-        /* background-color: cadetblue; */
+        margin-top: 4%;
+        margin-left: 2%;
+        background-color: cadetblue;
         float: left;
         text-align: center;
         border-radius: 5px;
@@ -477,45 +551,75 @@
     /* ************************************************************************************** */
     .can4{
         width: 90%;
-        height: 10vh;
+        height: 8vh;
         margin-top: 0.5%;
         margin-left: 5%;
-        /* background-color: blue; */
+        background-color: blue;
+        float: left;
+    }
+    .can4 .dispositivo4_a{
+        width: 25%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 1%;
         float: left;
     }
     .can4 .entrada{
-        width: 24%;
+        width: 96%;
         height: 6vh;
-        margin-top: 2%;
+        margin-top: 4%;
         margin-left: 2%;
-        /* background-color:brown; */
+        background-color:brown;
         float: left;
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
     }
+    .can4 .dispositivo4_b{
+        width: 20%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 2.5%;
+        float: left;
+    }
     .can4 .sost{
-        width: 15%;
-        margin-top: 2%;
-        /* margin-left: 0.5%;  */
+        width: 5%;
+        margin-top: 1.5%;
+        margin-left: 2%; 
         background-color: darkgreen;
         /* float: left; */
-        align-items: center;
+        /* align-items: center; */
+    }
+     .can4 .dispositivo4_c{
+        width: 20%;
+        height: 8vh;
+        background-color: aqua;
+        margin-top: 0%;
+        margin-left: 4.5%;
+        float: left;
     }
     .can4 .pul{
-        width: 15%;
-        margin-top: 2%;
-        margin-left: 10%; 
+        width: 5%;
+        margin-top: 1.5%;
+        margin-left: 2%; 
         background-color: cadetblue;
-        float: left;
-        align-items: center;
+    }
+     .can4 .dispositivo4_d{
+        width: 25%;
+        height: 8vh;
+        background-color:coral;
+        margin-top: 0%;
+        margin-right: 1%;
+        float: right;
     }
     .can4 .entrada1{
-        width: 15%;
+        width: 96%;
         height: 6vh;
-        margin-top: 2%;
-        margin-left: 55%;
-        /* background-color: cadetblue; */
+        margin-top: 4%;
+        margin-left: 2%;
+        background-color: cadetblue;
         float: left;
         text-align: center;
         border-radius: 5px;
@@ -523,18 +627,33 @@
         border-style: solid;
     }
     /* ************************************************************************************** */
-    .guardar{
-        height: 5vh ;
-        margin-top: 0.5%;
-        margin-left: 30%;
-        text-align: center;
-
-    }
-    .cancelar{
-        height: 5vh;
+    .botones{
+        width: 90%;
+        height: 8vh;
         margin-top: 0.5%;
         margin-left: 5%;
-        text-align: center;
+        background-color: green;
+        float: left;
+    }
+    .botones .boton_g{
+        width: 25%;
+        height: 7vh ;
+        background-color: yellow;
+        margin-top: 0.5%;
+        margin-left: 15%;
+        float: left;
+        
+       
+
+    }
+    .botones .boton_c{
+        width: 25%;
+        height: 7vh ;
+        background-color:orange;
+        margin-top: 0.5%;
+        margin-left: 62%;
+        
+        
     }
     /* .entrada{
         width: 5%;

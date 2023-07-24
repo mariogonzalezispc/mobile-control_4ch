@@ -20,9 +20,15 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/justgage/1.2.9/justgage.min.js"></script>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -35,111 +41,112 @@
 
 <body>
 
-<div id="general" class="div_general">
+    <div id="general" class="div_general">
 
 
 
 
 
-    <header class="header">
-        <nav class="nav">
+        <header class="header">
+            <nav class="nav">
 
-            <!-- <img class="logo__img unselectable" src="./img/LogoMG2.png" ALT="Logo MG Alarmas"> -->
-            <h1 class="web unselectable">Web Control</h1>
-            <h1 class="mov unselectable">Mobile Control</h1>
+                <!-- <img class="logo__img unselectable" src="./img/LogoMG2.png" ALT="Logo MG Alarmas"> -->
+                <h1 class="web unselectable">Web Control</h1>
+                <h1 class="mov unselectable">Mobile Control</h1>
 
-            <button class="nav-toggle" id="nav-toggle" onclick="" ALT="Menu de opciones">
-                <i class="fas fa-bars" aria-hidden="true"></i>
-            </button>
-<!---------------------------------------------------------------------------------->
-            <ul class="nav-menu unselectable">
-                <li class="unselectable">
-                    <label for="touch"><span class="nav-menu-link unselectable">Canal</span></label>
-                    <input type="button" id="touch" onclick="" style="visibility: hidden; user-select: none;">
-                    <div class="perfiles">
-                    <ul class="site unselectable" id="lista" style="display: none;">
-                        <li><input type="button" class="sit0 unselectable" value="" id="si0" style="display: none;"
-                                style="display: none;" onclick=""></li>
-                        <li><input type="hidden" class="sib0" value="" id="sib0"></li>
-                        <li><input type="button" class="sit1 unselectable" value="" id="si1" style="display: none;"
-                                style="display: none;" onclick=""></li>
-                        <li><input type="hidden" class="sib1" value="" id="sib1"></li>
-                        <li><input type="button" class="sit2 unselectable" value="" id="si2" style="display: none;"
-                                style="display: none;" onclick=""></li>
-                        <li><input type="hidden" class="sib2" value="" id="sib2"></li>
-                        <li><input type="button" class="sit3 unselectable" value="" id="si3" style="display: none;"
-                                style="display: none;" onclick=""></li>
-                        <li><input type="hidden" class="sib3" value="" id="sib3"></li>
-                        </ul>
-                    
-                    </div>
-                </li>
-                <li class=""><a href="#" class="nav-menu-link configuracion unselectable" onclick="">Configuracion</a></li>
-                <li class=""><a href="#" class="nav-menu-link inicio unselectable" onclick="">Ayuda</a></li>
-                <li class=""><a href="#" class="nav-menu-link acerca unselectable" onclick="">Acerca</a></li>
-                <li class=""><a href="#" class="nav-menu-link salida unselectable" onclick="">Salir</a></li>
-            </ul>
-<!---------------------------------------------------------------------------------->
-        </nav>
-    </header>
+                <button class="nav-toggle" id="nav-toggle" onclick="" ALT="Menu de opciones">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+                <!---------------------------------------------------------------------------------->
+                <ul class="nav-menu unselectable">
+                    <li class="unselectable">
+                        <label for="touch"><span class="nav-menu-link unselectable">Canal</span></label>
+                        <input type="button" id="touch" onclick="" style="visibility: hidden; user-select: none;">
+                        <div class="perfiles">
+                            <ul class="site unselectable" id="lista" style="display: none;">
+                                <li><input type="button" class="sit0 unselectable" value="" id="si0"
+                                        style="display: none;" style="display: none;" onclick=""></li>
+                                <li><input type="hidden" class="sib0" value="" id="sib0"></li>
+                                <li><input type="button" class="sit1 unselectable" value="" id="si1"
+                                        style="display: none;" style="display: none;" onclick=""></li>
+                                <li><input type="hidden" class="sib1" value="" id="sib1"></li>
+                                <li><input type="button" class="sit2 unselectable" value="" id="si2"
+                                        style="display: none;" style="display: none;" onclick=""></li>
+                                <li><input type="hidden" class="sib2" value="" id="sib2"></li>
+                                <li><input type="button" class="sit3 unselectable" value="" id="si3"
+                                        style="display: none;" style="display: none;" onclick=""></li>
+                                <li><input type="hidden" class="sib3" value="" id="sib3"></li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class=""><a href="#" class="nav-menu-link configuracion unselectable"
+                            onclick="">Configuracion</a></li>
+                    <li class=""><a href="#" class="nav-menu-link inicio unselectable" onclick="">Ayuda</a></li>
+                    <li class=""><a href="#" class="nav-menu-link acerca unselectable" onclick="">Acerca</a></li>
+                    <li class=""><a href="#" class="nav-menu-link salida unselectable" onclick="">Salir</a></li>
+                </ul>
+                <!---------------------------------------------------------------------------------->
+            </nav>
+        </header>
 
 
-     <div class="div_0 container" style="display:none;">
+        <div class="div_0 container" style="display:none;">
 
-        <div class="div1">
-           <div id="gauge" class="G1" style="display:none;"></div>
+            <div class="div1">
+                <div id="gauge" class="G1" style="display:none;"></div>
+            </div>
+
+            <div class="div2">
+
+            </div>
+
+            <div class="div3">
+
+            </div>
+
+            <div class="div4">
+
+            </div>
+
+            <div class="div5">
+
+            </div>
+
+            <div class="div6">
+
+            </div>
         </div>
-
-        <div class="div2">
-
-        </div>
-
-        <div class="div3">
-
-        </div>
-
-        <div class="div4">
-
-        </div>
-
-        <div class="div5">
-
-        </div>
-
-        <div class="div6">
-
-        </div>
-    </div>    
-<!-- ************************** div formulario************************************************************************* -->
+        <!-- ************************** div formulario************************************************************************* -->
 
         <div class="formulario" style="display: flex;">
-     
+
 
 
             <div class="carga_equipo">
                 <form>
                     <div class="id_nombre">
-                    <!-- --------------------------------------------------------------------------------- -->
-                    <div class="equip">
-                        <div class="label1">
-                        <label for="ID_equipo">ID-Equipo</label>
+                        <!-- --------------------------------------------------------------------------------- -->
+                        <div class="equip">
+                            <div class="label1">
+                                <label for="ID_equipo">ID-Equipo</label>
+                            </div>
+                            <div class="input1">
+                                <input type="text" class="form-control" placeholder="400/a1b2c3d4e5f6" id="ID_equipo">
+                            </div>
                         </div>
-                        <div class="input1">
-                        <input type="text" class="form-control" placeholder="400/a1b2c3d4e5f6" id="ID_equipo">
+                        <!-- ---------------------------------------------------------------------------------- -->
+
+                        <div class="nom">
+                            <div class="label2">
+                                <label for="Nombre">Nombre</label>
+                            </div>
+                            <div class="input2">
+                                <input type="text" class="form-control" placeholder="Ej Casa" id="Nombre">
+                            </div>
                         </div>
                     </div>
-                    <!-- ---------------------------------------------------------------------------------- -->
-                    
-                    <div class="nom">
-                        <div class="label2">
-                            <label for="Nombre">Nombre</label>
-                        </div>
-                        <div class="input2">
-                            <input type="text" class="form-control" placeholder="Ej Casa" id="Nombre">
-                        </div>
-                    </div>
-                </div>
-                <!-- ---------------oooookkkkkkkkkkkkkkkkkkkkkkkkkkkkk------------------------------------------------------------------- -->
+                    <!-- ---------------oooookkkkkkkkkkkkkkkkkkkkkkkkkkkkk------------------------------------------------------------------- -->
 
 
 
@@ -148,85 +155,116 @@
 
                     <!-- ---------------------------------------------------------------------------------- -->
                     <div class="form-group">
-                        
+
                         <div class="titulo">
                             <div class="tit_nom">
-                            <label for="pwd">Nombre</label>
-                        </div>
+                                <label for="pwd">Nombre</label>
+                            </div>
 
-                        <div class="tit_sost">
-                            <label class="form-check-label">Sostenido</label>
-                        </div>
+                            <div class="tit_sost">
+                                <label class="form-check-label">Sostenido</label>
+                            </div>
 
-                        <div class="tit_pul">
-                            <label class="form-check-label">Pulso</label>
-                        </div>
+                            <div class="tit_pul">
+                                <label class="form-check-label">Pulso</label>
+                            </div>
 
-                        <div class="tit_seg">
-                            <label class="form-check-label">Segundos</label>
-                        </div>
+                            <div class="tit_seg">
+                                <label class="form-check-label">Segundos</label>
+                            </div>
 
                         </div>
 
 
                         <div class="can1">
-                        <div>
-                            <div class="dispositivo1_a"><input type="text" class="form-control-sm entrada"
-                                    placeholder="Canal1" id="canal1">
-                            </div>
-                            <div class="dispositivo1_b">
-                                <input id="check_sostenido1" class="form-check-input sost" type="checkbox"
-                                    id="sostenido1" checked="checked">
-                            </div>
-                            <div class="dispositivo1_c">
-                                <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
-                            </div>
-                            <div class="dispositivo1_d">
-                                <input type="number" class="form-control-sn entrada1" placeholder="30" id="Segundos1">
+                            <div>
+                                <div class="dispositivo1_a"><input type="text" class="form-control-sm entrada"
+                                        placeholder="Canal1" id="canal1">
+                                </div>
+                                <div class="dispositivo1_b">
+                                    <input id="check_sostenido1" class="form-check-input sost" type="checkbox"
+                                        id="sostenido1" checked="checked">
+                                </div>
+                                <div class="dispositivo1_c">
+                                    <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
+                                </div>
+                                <div class="dispositivo1_d">
+                                    <input type="number" class="form-control-sn entrada1" placeholder="30"
+                                        id="Segundos1">
+                                </div>
                             </div>
                         </div>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
                         <div class="can2">
-                            <input type="text" class="form-control-sm entrada" placeholder="Canal2" id="canal2">
-                            <input id="check_sostenido2" class="form-check-input sost" type="checkbox" id="sostenido2" checked="checked">
-                            <input id="check_pulso2" class="form-check-input pul" type="checkbox" id="pulso2">
-                            <input type="number" class="form-control-sm entrada1" placeholder="30" id="Segundos2">
+                            <div>
+                                <div class="dispositivo2_a"><input type="text" class="form-control-sm entrada"
+                                        placeholder="Canal1" id="canal1">
+                                </div>
+                                <div class="dispositivo2_b">
+                                    <input id="check_sostenido1" class="form-check-input sost" type="checkbox"
+                                        id="sostenido1" checked="checked">
+                                </div>
+                                <div class="dispositivo2_c">
+                                    <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
+                                </div>
+                                <div class="dispositivo2_d">
+                                    <input type="number" class="form-control-sn entrada1" placeholder="30"
+                                        id="Segundos1">
+                                </div>
+                            </div>
                         </div>
                         <div class="can3">
-                            <input type="text" class="form-control-sm entrada" placeholder="Canal3" id="canal3">
-                            <input id="check_sostenido3" class="form-check-input sost" type="checkbox" id="sostenido3" checked="checked">
-                            <input id="check_pulso3" class="form-check-input pul" type="checkbox" id="pulso3">
-                            <input type="number" class="form-control-sm entrada1" placeholder="30" id="Segundos3">
+                            <div>
+                                <div class="dispositivo3_a"><input type="text" class="form-control-sm entrada"
+                                        placeholder="Canal1" id="canal1">
+                                </div>
+                                <div class="dispositivo3_b">
+                                    <input id="check_sostenido1" class="form-check-input sost" type="checkbox"
+                                        id="sostenido1" checked="checked">
+                                </div>
+                                <div class="dispositivo3_c">
+                                    <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
+                                </div>
+                                <div class="dispositivo3_d">
+                                    <input type="number" class="form-control-sn entrada1" placeholder="30"
+                                        id="Segundos1">
+                                </div>
+                            </div>
                         </div>
                         <div class="can4">
-                            <input type="text" class="form-control-sm entrada" placeholder="Canal4" id="canal4">
-                            <input id="check_sostenido4" class="form-check-input sost" type="checkbox" id="sostenido4" checked="checked">
-                            <input id="check_pulso4" class="form-check-input pul" type="checkbox" id="pulso4">
-                            <input type="number" class="form-control-sm entrada1" placeholder="30" id="Segundos4">
+                            <div>
+                                <div class="dispositivo4_a"><input type="text" class="form-control-sm entrada"
+                                        placeholder="Canal1" id="canal1">
+                                </div>
+                                <div class="dispositivo4_b">
+                                    <input id="check_sostenido1" class="form-check-input sost" type="checkbox"
+                                        id="sostenido1" checked="checked">
+                                </div>
+                                <div class="dispositivo4_c">
+                                    <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
+                                </div>
+                                <div class="dispositivo4_d">
+                                    <input type="number" class="form-control-sn entrada1" placeholder="30"
+                                        id="Segundos1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ---------------------------------------------------------------------------------- -->
+                        <div class="botones">
+
+                                <div class="boton_g">
+                                    <button type="submit" class="btn btn-primary" style="display: none;">Guardar</button>
+                                </div>
+
+                                <div class="boton_c">
+                                    <button type="reset" class="btn btn-primary" style="display: none;">Cancelar</button>
+                                </div>
+
                         </div>
                     </div>
-                    <!-- ---------------------------------------------------------------------------------- -->
-
-                    <button type="submit" class="btn btn-primary guardar">Guardar</button>
-
-                    <button type="reset" class="btn btn-primary cancelar">Cancelar</button>                   
- 
                 </form>
             </div>
 
@@ -234,9 +272,9 @@
 
 
         </div>
-<!-- ************************** div formulario************************************************************************* -->
+        <!-- ************************** div formulario************************************************************************* -->
 
-</div>
+    </div>
 
 </body>
 
@@ -251,5 +289,5 @@
         relativeGaugeSize: true,
     });
 </script>
-  
+
 </html>

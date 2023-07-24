@@ -31,11 +31,11 @@
         justify-content: center;/* Para separar los elementos con espacio entre ellos */
         flex-wrap:wrap; /* Para que los elementos se ajusten automáticamente al tamaño del contenedor */
         align-items: center;
-        background: blue;
-        width: 100%;
+        background: green;
+        width: 98%;
         height: 30%;
-        margin-top: 0%;
-        margin-left: 0%;
+        margin-top: 5%;
+        margin-left: 1%;
         border: 2px solid;
         border-radius: 10px;
         float: left;  
@@ -43,7 +43,7 @@
     } 
     .div1{
         background: orange;
-        width: calc(33.33% - 10px);/* Para dar un ancho fijo a cada elemento con un margen de 10px */
+        width: calc(33.33% - 10px); /* Para dar un ancho fijo a cada elemento con un margen de 10px */
         margin-bottom: 20px;/* Para agregar un espacio entre los elementos */
         height: 200px;
         margin-top: 2%;

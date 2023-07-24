@@ -40,13 +40,7 @@
 </head>
 
 <body>
-
     <div id="general" class="div_general">
-
-
-
-
-
         <header class="header">
             <nav class="nav">
 
@@ -91,7 +85,7 @@
         </header>
 
 
-        <div class="div_0" style="display:flex;">
+        <div class="div_0" style="display: none;">
 
             <div class="div1">
                 <div id="gauge" class="G1" style="display:none;"></div>
@@ -117,181 +111,185 @@
 
             </div>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <!-- ************************** div formulario************************************************************************* -->
 
-        
-        
-        
-        
-        
-        
-        
-        <div class="formulario" style="display: none;">
+<div class="formulario" style="display: flex;">
 
+    <form>
 
+<!-- ===================================================================================== -->
+   <!-- div del menu del usuario  -->
+<!-- ===================================================================================== -->
 
-            <div class="carga_equipo">
-                <form>
-                    <div class="id_nombre">
-                        <!-- --------------------------------------------------------------------------------- -->
-                        <div class="equip">
-                            <div class="label1">
-                                <label for="ID_equipo">ID-Equipo</label>
-                            </div>
-                            <div class="input1">
-                                <input type="text" class="form-control" placeholder="400/a1b2c3d4e5f6" id="ID_equipo">
-                            </div>
-                        </div>
-                        <!-- ---------------------------------------------------------------------------------- -->
+<div class="menu">
+    <dir class="alta">
 
-                        <div class="nom">
-                            <div class="label2">
-                                <label for="Nombre">Nombre</label>
-                            </div>
-                            <div class="input2">
-                                <input type="text" class="form-control" placeholder="Ej Casa" id="Nombre">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ---------------oooookkkkkkkkkkkkkkkkkkkkkkkkkkkkk------------------------------------------------------------------- -->
-
-
-
-
-
-
-                    <!-- ---------------------------------------------------------------------------------- -->
-                    <div class="form-group">
-
-                        <div class="titulo">
-                            <div class="tit_nom">
-                                <label for="pwd">Nombre</label>
-                            </div>
-
-                            <div class="tit_sost">
-                                <label class="form-check-label">Sostenido</label>
-                            </div>
-
-                            <div class="tit_pul">
-                                <label class="form-check-label">Pulso</label>
-                            </div>
-
-                            <div class="tit_seg">
-                                <label class="form-check-label">Segundos</label>
-                            </div>
-
-                        </div>
-
-
-                        <div class="can1">
-                            <div>
-                                <div class="dispositivo1_a"><input type="text" class="form-control-sm entrada"
-                                        placeholder="Canal1" id="canal1">
-                                </div>
-                                <div class="dispositivo1_b">
-                                    <input id="check_sostenido1" class="form-check-input sost" type="checkbox"
-                                        id="sostenido1" checked="checked">
-                                </div>
-                                <div class="dispositivo1_c">
-                                    <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
-                                </div>
-                                <div class="dispositivo1_d">
-                                    <input type="number" class="form-control-sn entrada1" placeholder="30"
-                                        id="Segundos1">
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div class="can2">
-                            <div>
-                                <div class="dispositivo2_a"><input type="text" class="form-control-sm entrada"
-                                        placeholder="Canal1" id="canal1">
-                                </div>
-                                <div class="dispositivo2_b">
-                                    <input id="check_sostenido1" class="form-check-input sost" type="checkbox"
-                                        id="sostenido1" checked="checked">
-                                </div>
-                                <div class="dispositivo2_c">
-                                    <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
-                                </div>
-                                <div class="dispositivo2_d">
-                                    <input type="number" class="form-control-sn entrada1" placeholder="30"
-                                        id="Segundos1">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="can3">
-                            <div>
-                                <div class="dispositivo3_a"><input type="text" class="form-control-sm entrada"
-                                        placeholder="Canal1" id="canal1">
-                                </div>
-                                <div class="dispositivo3_b">
-                                    <input id="check_sostenido1" class="form-check-input sost" type="checkbox"
-                                        id="sostenido1" checked="checked">
-                                </div>
-                                <div class="dispositivo3_c">
-                                    <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
-                                </div>
-                                <div class="dispositivo3_d">
-                                    <input type="number" class="form-control-sn entrada1" placeholder="30"
-                                        id="Segundos1">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="can4">
-                            <div>
-                                <div class="dispositivo4_a"><input type="text" class="form-control-sm entrada"
-                                        placeholder="Canal1" id="canal1">
-                                </div>
-                                <div class="dispositivo4_b">
-                                    <input id="check_sostenido1" class="form-check-input sost" type="checkbox"
-                                        id="sostenido1" checked="checked">
-                                </div>
-                                <div class="dispositivo4_c">
-                                    <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
-                                </div>
-                                <div class="dispositivo4_d">
-                                    <input type="number" class="form-control-sn entrada1" placeholder="30"
-                                        id="Segundos1">
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- ---------------------------------------------------------------------------------- -->
-                        <div class="botones">
-
-                                <div class="boton_g">
-                                    <button type="submit" class="btn btn-primary" style="display: none;">Guardar</button>
-                                </div>
-
-                                <div class="boton_c">
-                                    <button type="reset" class="btn btn-primary" style="display: none;">Cancelar</button>
-                                </div>
-
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-
-
-
-        </div>
-        <!-- ************************** div formulario************************************************************************* -->
+    </dir>
+    <div class="baja">
 
     </div>
+    <div class="modificacion">
+
+    </div>
+
+</div>
+
+
+
+<!-- ===================================================================================== -->
+   <!-- div alta de dispositivo  -->
+<!-- ===================================================================================== -->
+        <div class="carga_equipo" style="display: none;">
+            <div class="form-group">
+            <div class="id_nombre">
+                <!-- --------------------------------------------------------------------------------- -->
+                <div class="equip">
+                    <div class="label1">
+                        <label for="ID_equipo">ID-Equipo</label>
+                    </div>
+                    <div class="input1">
+                        <input type="text" class="form-control" placeholder="400/a1b2c3d4e5f6" id="ID_equipo">
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------------------------------- -->
+
+                <div class="nom">
+                    <div class="label2">
+                        <label for="Nombre">Nombre</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" class="form-control" placeholder="Ej Casa" id="Nombre">
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+            <!-- ---------------------------------------------------------------------------------- -->
+                <div class="titulo">
+                    <div class="tit_nom">
+                        <label for="pwd">Nombre</label>
+                    </div>
+
+                    <div class="tit_sost">
+                        <label class="form-check-label">Sostenido</label>
+                    </div>
+
+                    <div class="tit_pul">
+                        <label class="form-check-label">Pulso</label>
+                    </div>
+
+                    <div class="tit_seg">
+                        <label class="form-check-label">Segundos</label>
+                    </div>
+
+                </div>
+
+
+                <div class="can1">
+                    <div>
+                        <div class="dispositivo1_a"><input type="text" class="form-control-sm entrada"
+                                placeholder="Canal1" id="canal1">
+                        </div>
+                        <div class="dispositivo1_b">
+                            <input id="check_sostenido1" class="form-check-input sost" type="checkbox" id="sostenido1"
+                                checked="checked">
+                        </div>
+                        <div class="dispositivo1_c">
+                            <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
+                        </div>
+                        <div class="dispositivo1_d">
+                            <input type="number" class="form-control-sn entrada1" placeholder="30" id="Segundos1">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="can2">
+                    <div>
+                        <div class="dispositivo2_a"><input type="text" class="form-control-sm entrada"
+                                placeholder="Canal1" id="canal1">
+                        </div>
+                        <div class="dispositivo2_b">
+                            <input id="check_sostenido1" class="form-check-input sost" type="checkbox" id="sostenido1"
+                                checked="checked">
+                        </div>
+                        <div class="dispositivo2_c">
+                            <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
+                        </div>
+                        <div class="dispositivo2_d">
+                            <input type="number" class="form-control-sn entrada1" placeholder="30" id="Segundos1">
+                        </div>
+                    </div>
+                </div>
+                <div class="can3">
+                    <div>
+                        <div class="dispositivo3_a"><input type="text" class="form-control-sm entrada"
+                                placeholder="Canal1" id="canal1">
+                        </div>
+                        <div class="dispositivo3_b">
+                            <input id="check_sostenido1" class="form-check-input sost" type="checkbox" id="sostenido1"
+                                checked="checked">
+                        </div>
+                        <div class="dispositivo3_c">
+                            <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
+                        </div>
+                        <div class="dispositivo3_d">
+                            <input type="number" class="form-control-sn entrada1" placeholder="30" id="Segundos1">
+                        </div>
+                    </div>
+                </div>
+                <div class="can4">
+                    <div>
+                        <div class="dispositivo4_a"><input type="text" class="form-control-sm entrada"
+                                placeholder="Canal1" id="canal1">
+                        </div>
+                        <div class="dispositivo4_b">
+                            <input id="check_sostenido1" class="form-check-input sost" type="checkbox" id="sostenido1"
+                                checked="checked">
+                        </div>
+                        <div class="dispositivo4_c">
+                            <input id="check_pulso1" class="form-check-input pul" type="checkbox" id="pulso1">
+                        </div>
+                        <div class="dispositivo4_d">
+                            <input type="number" class="form-control-sn entrada1" placeholder="30" id="Segundos1">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ---------------------------------------------------------------------------------- -->
+                <div class="botones">
+
+                    <div class="boton_g">
+                        <button type="submit" class="btn btn-primary" style="display: none;">Guardar</button>
+                    </div>
+
+                    <div class="boton_c">
+                        <button type="reset" class="btn btn-primary" style="display: none;">Cancelar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+<!-- ===================================================================================== -->
+   <!-- div baja de dispositivo  -->
+<!-- ===================================================================================== -->
+
+
+<!-- ===================================================================================== -->
+   <!-- div Modificacion  de dispositivo  -->
+<!-- ===================================================================================== -->
+
+    </form>
+</div>
+<!-- ************************** div formulario************************************************************************* -->
+
+</div>
 
 </body>
 

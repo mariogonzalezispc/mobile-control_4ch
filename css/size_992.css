@@ -3,17 +3,27 @@
         width: 100%;
     }
     .nav{
-        background: rgb(148, 148, 30);
+        background: rgb(148, 83, 30);
         padding: 10px;
         display: flex;
-        /* justify-content: space-around; */
+        justify-content: space-between;
         width: 100%;
         height: 40px;
+    }
+    .nav-menu li{
+        display: inline-block;
+        margin-right: 20px;
+        color: blue;
+    }
+    .menu li a {
+        display: block;
+        color:black;
+        padding: 10px;
+        text-decoration: none;
     }
     .nav-toggle {
         display: none;
     }
-
     .mov{
         display: none;
     }
@@ -22,8 +32,8 @@
         font-weight: 500;
         color: navy; 
         display: block;
-        line-height: 65px;
-        margin-left: 70px;
+        line-height: 40px;
+        margin-left: 90px;
         position: relative;
     }
     .div_0{
@@ -151,11 +161,22 @@
         border-radius: 10px;
         float: left;
     }
+    .encabezado{
+        background: orangered;
+        width: 90%;
+        height: 7VH;
+        margin-top: 2%;
+        margin-left: 5% ;
+        text-align: center;
+        font-style: normal;
+        font-size:20px;
+        line-height: 6vh;
+    }
     
     .id_nombre{
         width: 90%;
         height: 17vh;
-        margin-top: 7%;
+        margin-top: 2%;
         margin-left: 5%;
         background-color: skyblue;
         float: left;
@@ -170,7 +191,7 @@
         float: left;
         margin-left: 4%;
         margin-top: 1.5%;
-        font-style: italic;
+        font-style: normal;
         font-size:20px;
         line-height: 6vh;
         text-align: center;
@@ -183,7 +204,7 @@
         margin-left: 1%;
         background-color: darkgreen;
         float: left;
-        font-style: italic;
+        font-style: normal;
         font-size:20px;
         line-height: 6vh;
         
@@ -211,7 +232,7 @@
         float: left;
         margin-left: 4%;
         margin-top: 1.5%;
-        font-style: italic;
+        font-style: normal;
         font-size:20px;
         line-height: 6vh;
         text-align: center;   
@@ -222,7 +243,7 @@
         margin-left: 1%;
         background-color: darkgreen;
         float: left;        
-        font-style: italic;
+        font-style: normal;
         font-size:20px;
         line-height: 6vh;
     } 
@@ -260,7 +281,7 @@
         float: left;
         text-align: center;
         color: blue;
-        font-style: italic;
+        font-style: normal;
         font-size: 20px;
         line-height: 6vh;
     }
@@ -274,7 +295,7 @@
         float: left;
         text-align: center;
         color: blue;
-        font-style: italic;
+        font-style: normal;
         font-size:20px;
         line-height: 6vh;
     }
@@ -288,7 +309,7 @@
         float: left;
         text-align: center;
         color: blue;
-        font-style: italic;
+        font-style: normal;
         font-size:20px;
         line-height: 6vh;
     }
@@ -302,7 +323,7 @@
         float: left;
         text-align: center;
         color: blue;
-        font-style: italic;
+        font-style: normal;
         font-size:20px;
         line-height: 6vh;
     }
@@ -337,7 +358,7 @@
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
-        
+        font-size: medium; 
     }
 
     .can1 .dispositivo1_b{
@@ -350,8 +371,8 @@
     }
     .can1 .sost{
         width: 5%;
-        margin-top: 1.5%;
-        margin-left: 2%;
+        margin-top: 3%;
+        margin-left: 6%;
         background-color: darkgreen;
         /* float: left; */
         /* align-items: center; */
@@ -369,8 +390,8 @@
 
     .can1 .pul{
         width: 5%;
-        margin-top: 1.5%;
-        margin-left: 2%;
+        margin-top: 3%;
+        margin-left: 6%;
         background-color: darkgreen;
     }
 
@@ -388,13 +409,13 @@
         height: 6vh;
         margin-top: 4%;
         margin-left: 2%;
-        background-color:brown;
+        background-color: cadetblue;
         /* background: none; */
         float: left;
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
-
+        font-size: medium; 
         text-align: center;
 
     }
@@ -405,7 +426,7 @@
         margin-top: 0.5%;
         margin-left: 5%;
         background-color: green;
-        float: left;
+        float: left; 
     }
     .can2 .dispositivo2_a{
         width: 25%;
@@ -425,6 +446,7 @@
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
+        font-size: medium; 
     }
     .can2 .dispositivo2_b{
         width: 20%;
@@ -437,8 +459,8 @@
 
     .can2 .sost{
         width: 5%;
-        margin-top: 1.5%;
-        margin-left: 2%; 
+        margin-top: 3%;
+        margin-left: 6%; 
         background-color: darkgreen;
         /* float: left;
         align-items: center; */
@@ -453,8 +475,8 @@
     }
     .can2 .pul{
         width: 5%;
-        margin-top: 1.5%;
-        margin-left: 2%; 
+        margin-top: 3%;
+        margin-left: 6%; 
         background-color: cadetblue;
     }
     .can2 .dispositivo2_d{
@@ -465,7 +487,7 @@
         margin-right: 1%;
         float: right;
     }
-    .can2 .entrada1{
+    .can2 .entrada2{
         width: 96%;
         height: 6vh;
         margin-top: 4%;
@@ -485,6 +507,7 @@
         margin-left: 5%;
         background-color: violet;
         float: left;
+        
     }
     .can3 .dispositivo3_a{
         width: 25%;
@@ -504,6 +527,7 @@
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
+        font-size: medium; 
     }
     .can3 .dispositivo3_b{
         width: 20%;
@@ -515,8 +539,8 @@
     }
     .can3 .sost{
         width: 5%;
-        margin-top: 1.5%;
-        margin-left: 2%; 
+        margin-top: 3%;
+        margin-left: 6%; 
         background-color: darkgreen;
         /* float: left; */
         /* align-items: center; */
@@ -531,8 +555,8 @@
     }
     .can3 .pul{
         width: 5%;
-        margin-top: 1.5%;
-        margin-left: 2%; 
+        margin-top: 3%;
+        margin-left: 6%; 
         background-color: cadetblue;
         
     }
@@ -544,7 +568,7 @@
         margin-right: 1%;
         float: right;
     }
-    .can3 .entrada1{
+    .can3 .entrada3{
         width: 96%;
         height: 6vh;
         margin-top: 4%;
@@ -564,6 +588,7 @@
         margin-left: 5%;
         background-color: blue;
         float: left;
+        
     }
     .can4 .dispositivo4_a{
         width: 25%;
@@ -583,6 +608,7 @@
         border-radius: 5px;
         border-color: blue;
         border-style: solid;
+        font-size: medium; 
     }
     .can4 .dispositivo4_b{
         width: 20%;
@@ -594,8 +620,8 @@
     }
     .can4 .sost{
         width: 5%;
-        margin-top: 1.5%;
-        margin-left: 2%; 
+        margin-top: 3%;
+        margin-left: 6%; 
         background-color: darkgreen;
         /* float: left; */
         /* align-items: center; */
@@ -610,8 +636,8 @@
     }
     .can4 .pul{
         width: 5%;
-        margin-top: 1.5%;
-        margin-left: 2%; 
+        margin-top: 3%;
+        margin-left: 6%; 
         background-color: cadetblue;
     }
      .can4 .dispositivo4_d{
@@ -622,7 +648,7 @@
         margin-right: 1%;
         float: right;
     }
-    .can4 .entrada1{
+    .can4 .entrada4{
         width: 96%;
         height: 6vh;
         margin-top: 4%;
@@ -650,19 +676,31 @@
         margin-top: 0.5%;
         margin-left: 15%;
         float: left;
-        
-       
-
+        /* text-align: center; */
     }
+    .botones .boton_g .btn{
+        height: 7vh;
+        width: 150px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
     .botones .boton_c{
         width: 25%;
         height: 7vh ;
         background-color:orange;
         margin-top: 0.5%;
         margin-left: 62%;
-        
+        /* text-align:center; */
         
     }
+    .botones .boton_c .btn{
+        height: 7vh;
+        width: 150px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
     /* .entrada{
         width: 5%;
     } */
